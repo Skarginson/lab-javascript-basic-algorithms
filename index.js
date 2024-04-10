@@ -51,3 +51,13 @@ for (let k = 0; k <= hacker2.length - 1; k++) {
 }
 console.log(order);
 
+
+const phrasetoCheck = "stack cats"
+
+if (phrasetoCheck.replace(" ", "") === phrasetoCheck.toLowerCase().replace(" ", "").split('').reverse().join("")) {
+  console.log("it is a palindrome")
+}
+else {
+  console.log("it is not a palindrome")
+}
+
